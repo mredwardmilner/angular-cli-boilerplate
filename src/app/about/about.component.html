@@ -1,0 +1,13 @@
+<p>
+  This is about.
+</p>
+<p>
+    <button (click)="sendMeHome()">Go home</button>
+  </p>
+
+  <ul>
+    <li  *ngFor="let goal of goals; let i = index">
+        {{ i + 1 }}
+        {{ goal }}
+      </li> 
+  </ul>

@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: #2E9CE6;
+  padding: 3em;
+  font-family: sans-serif;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  a {
+    color: #fff;
+    &:not(:first-child) {
+      margin-left: 1em;
+    }
+  }
+}
